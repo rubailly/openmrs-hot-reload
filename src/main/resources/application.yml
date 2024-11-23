@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: openmrs-hot-reload
+
+logging:
+  level:
+    org.openmrs.hotreload: DEBUG
+    
+hotreload:
+  moduleDir: ${MODULE_DIR:#{null}}
